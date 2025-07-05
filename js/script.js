@@ -21,3 +21,8 @@ function analyzeReceipt() {
 
   document.getElementById("result").innerText = output;
 }
+Tesseract.recognize(file, 'pol')
+  .then(({ data: { text } }) => {
+    document.getElementById('receiptInput').value = text;
+    analyzeReceipt();
+  });
