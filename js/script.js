@@ -1,28 +1,29 @@
-// script.js
 function analyzeReceipt() {
   const input = document.getElementById('receiptInput').value.toLowerCase();
-  let output = "🔮 Oto Twój paragonowy portret:\n";
+  let result = "🔮 Oto Twój paragonowy portret:\n\n";
 
-  if (input.includes("piwo")) {
-    output += "🍺 Dusza wieczorna — relaksujesz się jak mistrz zen z kapslem w dłoni.\n";
-  }
-  if (input.includes("twarożek") || input.includes("grani")) {
-    output += "🥣 Serdeczny domator, który ceni prostotę i konsystencję (także w życiu).\n";
-  }
-  if (input.includes("buraczki") || input.includes("seler")) {
-    output += "🥗 Szef kuchni tradycji. Gotujesz nie tylko z głodu, ale z pamięci pokoleń.\n";
-  }
-  if (input.includes("mydło")) {
-    output += "🧼 Wewnętrzny minimalista – czysty umysł, czyste ręce.\n";
-  }
   if (input.trim() === "") {
-    output = "😐 Wklej paragon, zanim wyczytam Ci duszę mordo!";
+    result = "🤔 Najpierw wklej jakiś paragon, Sherlocku Zakupowy!";
+  } else {
+    if (input.includes("piwo") || input.includes("lech") || input.includes("kustosz")) {
+      result += "🍺 Koneser relaksu — spokojny duch z sercem do weekendów i playlisty 'Letnie wieczory'.\n";
+    }
+    if (input.includes("twarożek") || input.includes("grani")) {
+      result += "🥣 Dusza domatora — kochasz miękkie tekstury i poranki z okruszkami.\n";
+    }
+    if (input.includes("buraczki") || input.includes("seler") || input.includes("marchew") || input.includes("cebula")) {
+      result += "🥗 Kuchenny archeolog — Twoje dania mają wspomnienia i babcine tło dźwiękowe.\n";
+    }
+    if (input.includes("mydło") || input.includes("linda")) {
+      result += "🧼 Minimalista z estetyką łazienki jak z reklamy — czystość to Twój lifestyle.\n";
+    }
+    if (input.includes("groszek") || input.includes("fasola")) {
+      result += "🌱 Romantyk puszek — proste rzeczy sprawiają Ci największą radość.\n";
+    }
+    if (!result.includes("🍺") && !result.includes("🥗") && !result.includes("🧼")) {
+      result += "🌀 Jesteś unikalny jak skład Twojego koszyka — nie da się Cię zaszufladkować!\n";
+    }
   }
 
-  document.getElementById("result").innerText = output;
+  document.getElementById('result').innerText = result;
 }
-Tesseract.recognize(file, 'pol')
-  .then(({ data: { text } }) => {
-    document.getElementById('receiptInput').value = text;
-    analyzeReceipt();
-  });
