@@ -272,7 +272,58 @@ if (input.includes("serek topiony")) {
 if (input.includes("ser feta")) {
   result += "🇬🇷 Letni wyznawca Grecji — Twoje sałatki są lepsze niż Instagram.\n"; matched = true;
 }
-if (input.includes("wrap"))
+if (input.includes("wrap")) {
+  result += "🌯 Nomada lunchowa — wszystko zawijasz i ruszasz dalej.\n"; matched = true;
+}
+if (input.includes("mus owocowy")) {
+  result += "🍎 Słodki ninja — czasem udajesz zdrowe, ale jesteś po prostu uroczy.\n"; matched = true;
+}
+if (input.includes("sok pomidorowy")) {
+  result += "🧃 Minimalistyczny romantyk — picie warzyw to też uczucie.\n"; matched = true;
+}
+if (input.includes("keczup pikantny")) {
+  result += "🌶️ Rebel z lodówki — przyprawiasz życie bez pytania.\n"; matched = true;
+}
+if (input.includes("pistacje") || input.includes("orzechy")) {
+  result += "🥜 Skomplikowana przekąska — krucha, twarda i wybitnie wciągająca.\n"; matched = true;
+}
+if (input.includes("czosnek")) {
+  result += "🧄 Mistyk kuchni — Twoje dania nie znają półśrodków.\n"; matched = true;
+}
+if (input.includes("imbir") || input.includes("kurkuma")) {
+  result += "🌶️ Zdrowotny alchemik — herbata z Tobą to transformacja duszy.\n"; matched = true;
+}
+if (input.includes("serek homo") || input.includes("danio")) {
+  result += "🥣 Uroczy nostalgik — deser po 22. to Twój rytuał od dzieciństwa.\n"; matched = true;
+}
+if (input.includes("czekolada gorzka")) {
+  result += "🖤 Egzystencjalista z kakao — intensywnie, głęboko, z dystansem.\n"; matched = true;
+}
+if (input.includes("czekolada mleczna")) {
+  result += "🥰 Słodki klasyk — przy Tobie świat topi się szybciej.\n"; matched = true;
+}
+if (input.includes("sałata") || input.includes("rukola")) {
+  result += "🌿 Minimalista z pazurem — świeżość to Twoje drugie imię.\n"; matched = true;
+}
+if (input.includes("ogórek świeży")) {
+  result += "🥒 Optymista spontaniczny — idealny dodatek do każdego nastroju.\n"; matched = true;
+}
+if (input.includes("paragon") && input.includes("konto")) {
+  result += "🧾 Spożywczy filozof — analizujesz świat przez koszyk.\n"; matched = true;
+}
+if (input.includes("węgiel aktywny")) {
+  result += "🧱 Cichy detoxer — czyścisz więcej niż lodówkę.\n"; matched = true;
+}
+if (input.includes("kaszka manna")) {
+  result += "👶 Miękki romantyk — kochasz otulenie i smak dzieciństwa.\n"; matched = true;
+}
+if (input.includes("czyścik") || input.includes("szmatka")) {
+  result += "🧽 Cichy bohater domu — nikt Cię nie widzi, ale wszystko dzięki Tobie błyszczy.\n"; matched = true;
+}
+if (input.includes("ziarna") || input.includes("granola")) {
+  result += "🌾 Strukturalna dusza — wszystko w Tobie ma rytm i teksturę.\n"; matched = true;
+}
+
     }
   }
 
