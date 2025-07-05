@@ -248,7 +248,31 @@ if (input.includes("latarka") || input.includes("świeczka")) {
 if (input.includes("podpałka") || input.includes("węgiel drzewny")) {
   result += "🔥 Opiekun ogniska — umiesz rozpalić wieczór (i serce).\n"; matched = true;
 }
-
+if (input.includes("szynka") || input.includes("salami")) {
+  result += "🥓 Esteta wędlin — plasterek musi być cienki jak Twoje poczucie ironii.\n"; matched = true;
+}
+if (input.includes("filet") || input.includes("pierś z kurczaka")) {
+  result += "🍗 Zdyscyplinowany rzeźbiarz ciała — gotujesz z kalkulatorem kalorii.\n"; matched = true;
+}
+if (input.includes("soja") || input.includes("tempeh")) {
+  result += "🌱 Świadomy wybieracz — każde danie to manifest wartości.\n"; matched = true;
+}
+if (input.includes("baton") || input.includes("snickers")) {
+  result += "🍫 Nocna przekąska emocji — kochasz, głodniejesz, działasz.\n"; matched = true;
+}
+if (input.includes("czipsy") || input.includes("crunch")) {
+  result += "🥔 Życiowy chrupacz — wszystko rozwiążesz z paczką w dłoni.\n"; matched = true;
+}
+if (input.includes("energy drink") || input.includes("burn")) {
+  result += "⚡ Nocny architekt deadline’ów — żyjesz w turbo harmonogramie.\n"; matched = true;
+}
+if (input.includes("serek topiony")) {
+  result += "🧀 Grzeszna nostalgia — smak dzieciństwa i mikrofali.\n"; matched = true;
+}
+if (input.includes("ser feta")) {
+  result += "🇬🇷 Letni wyznawca Grecji — Twoje sałatki są lepsze niż Instagram.\n"; matched = true;
+}
+if (input.includes("wrap"))
     }
   }
 
