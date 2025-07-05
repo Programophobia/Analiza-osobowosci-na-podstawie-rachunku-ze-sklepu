@@ -173,6 +173,81 @@ if (input.includes("zupa") || input.includes("barszcz")) {
   result += "🥄 Czuły opiekun — karmisz nie tylko brzuchy, ale i wspomnienia.\n"; matched = true;
 }
 
+if (input.includes("mrożonka") || input.includes("warzywa na patelnię")) {
+  result += "❄️ Czasowy alchemik — Twoje obiady są błyskawiczne, ale z duszą.\n"; matched = true;
+}
+if (input.includes("ketchup") || input.includes("pudliszki")) {
+  result += "🍅 Król dekadenckiego smaku — dla Ciebie nawet frytki są arystokracją.\n"; matched = true;
+}
+if (input.includes("kukurydza") || input.includes("mexican")) {
+  result += "🌽 Słoneczny ekstrawertyk — wnosisz salsę tam, gdzie inni dają sól.\n"; matched = true;
+}
+if (input.includes("ananas")) {
+  result += "🍍 Tropikalny kontrowersjonista — pizza z Tobą zawsze ma twist.\n"; matched = true;
+}
+if (input.includes("olej") || input.includes("oliwa")) {
+  result += "🛢️ Gładki operator — zawsze ślizgasz się przez kuchnię z klasą.\n"; matched = true;
+}
+if (input.includes("mąka") || input.includes("pszenna")) {
+  result += "🌾 Szlachetny piekarz domowy — budujesz relacje na zakwasie.\n"; matched = true;
+}
+if (input.includes("cukier")) {
+  result += "🍚 Dosładzacz życia — nawet ironia ma z Tobą nutę wanilii.\n"; matched = true;
+}
+if (input.includes("miód")) {
+  result += "🍯 Naturalna słodycz — jesteś złotem rozpuszczonym w herbacie życia.\n"; matched = true;
+}
+if (input.includes("lód w kostkach") || input.includes("kostki lodu")) {
+  result += "🧊 Chłodny strateg — zimna głowa, gorące decyzje.\n"; matched = true;
+}
+if (input.includes("wino") || input.includes("merlot")) {
+  result += "🍷 Szlachetny duszek — wieczory z Tobą smakują jak włoski zachód słońca.\n"; matched = true;
+}
+if (input.includes("whisky") || input.includes("johnnie walker")) {
+  result += "🥃 Klasyk nocy — wiesz, że smak dojrzewa z charakterem.\n"; matched = true;
+}
+if (input.includes("piersiówka")) {
+  result += "🥴 Party ninja — zawsze masz coś ukrytego w kieszeni z historią.\n"; matched = true;
+}
+if (input.includes("żelki")) {
+  result += "🐻 Kolorowy freak — uśmiechasz się słodko nawet w korku.\n"; matched = true;
+}
+if (input.includes("wafelek") || input.includes("princessa")) {
+  result += "🍘 Czuła kawiarenka — lubisz drobne radości między scenami dnia.\n"; matched = true;
+}
+if (input.includes("ciasto") || input.includes("gotowe do pieczenia")) {
+  result += "🧁 Esteta domowego luksusu — pieczesz jakbyś wyznawał(a) miłość.\n"; matched = true;
+}
+if (input.includes("krem") || input.includes("dermokosmetyk")) {
+  result += "🧴 Pielęgnator duszy i skóry — dbasz tam, gdzie inni zapominają.\n"; matched = true;
+}
+if (input.includes("chusteczki")) {
+  result += "🧻 Empatyczny wojownik — gotów/a na łzy, smarki i wzruszenia.\n"; matched = true;
+}
+if (input.includes("suszarka") || input.includes("szczoteczka elektryczna")) {
+  result += "⚙️ Cyfrowy esteta — Twoja łazienka śpiewa jak reklama.\n"; matched = true;
+}
+if (input.includes("bateria") || input.includes("akumulator")) {
+  result += "🔋 Zawsze naładowany/a — energii Ci nie brak, ale ładowarki pilnujesz.\n"; matched = true;
+}
+if (input.includes("powerbank")) {
+  result += "🔌 Nomada kontrolowany — możesz wszystko, byle z 57% baterii.\n"; matched = true;
+}
+if (input.includes("zeszyt") || input.includes("długopis")) {
+  result += "📝 Kronikarz chaosu — życie zapisujesz, zanim Ci ucieknie.\n"; matched = true;
+}
+if (input.includes("zakreślacz")) {
+  result += "🖍️ Kolorysta struktury — nawet nudne notatki z Tobą mają vibe.\n"; matched = true;
+}
+if (input.includes("taśma klejąca") || input.includes("klej")) {
+  result += "📎 Łączysz światy — sklejki, słowa i czasem ludzi.\n"; matched = true;
+}
+if (input.includes("latarka") || input.includes("świeczka")) {
+  result += "🕯️ Romantyk survivalu — jesteś światłem w przerwie dostaw.\n"; matched = true;
+}
+if (input.includes("podpałka") || input.includes("węgiel drzewny")) {
+  result += "🔥 Opiekun ogniska — umiesz rozpalić wieczór (i serce).\n"; matched = true;
+}
 
     }
   }
