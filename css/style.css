@@ -56,3 +56,16 @@ button:hover {
   border-radius: 6px;
   white-space: pre-wrap;
 }
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+  color: rgb(245, 242, 242);
+  padding: 10px 20px;
+  text-align: center;
+  z-index: 999;
+  max-height: 30px;
+   background: rgba(177, 207, 27, 0.3); /* 0.5 = 50% przezroczystości */
+}
